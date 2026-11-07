@@ -1,0 +1,19 @@
+# Environment files containing secrets
+.env
+*.env
+!.env.example
+
+# Build artifacts
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
